@@ -38,6 +38,17 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
+            <!-- Maven Compiler Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version> <!-- Use the desired version of the compiler plugin -->
+                <configuration>
+                    <source>11</source> <!-- Specify the Java source version -->
+                    <target>11</target> <!-- Specify the Java target version -->
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
